@@ -60,6 +60,12 @@ Recommended sequence:
 
 ---
 
+## Example Output
+
+![Notebook Output](screenshot.png)
+
+---
+
 ## Author
 
 John Pleasant
