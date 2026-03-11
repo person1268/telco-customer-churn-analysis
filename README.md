@@ -11,8 +11,8 @@ The work was developed as part of machine learning coursework and demonstrates d
 ```text id="1v7p4o"
 telco-customer-churn-analysis
 │
-├── Pleasant_CM2_Project2.ipynb   # Main analysis notebook
-├── Pleasant_CM2_Project1.ipynb   # Supporting preprocessing/model notebook
+├── deep_learning_analysis.ipynb   # Main analysis notebook
+├── data_preprocessing.ipynb   # Supporting preprocessing/model notebook
 ├── WA_Fn-UseC_-Telco-Customer-Churn.csv   # Dataset
 └── README.md
 ```
@@ -51,12 +51,12 @@ This dataset contains customer demographic and service information used to study
 
 ## How to Run
 
-Open the notebooks in Jupyter Notebook or Google Colab and run cells in order.
+Open the notebooks in Jupyter Notebook or Google Colab (recommended) and run cells in order.
 
 Recommended sequence:
 
-1. Pleasant_CM2_Project1.ipynb
-2. Pleasant_CM2_Project2.ipynb
+1. data_preprocessing.ipynb
+2. deep_learning_analysis.ipynb
 
 ---
 
