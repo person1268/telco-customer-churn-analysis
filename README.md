@@ -2,17 +2,17 @@
 
 This project analyzes customer churn using Python and Jupyter notebooks with the Telco Customer Churn dataset.
 
-The work was developed as part of machine learning coursework and demonstrates data preparation, feature analysis, model experimentation, and notebook-based workflow design.
+The work was developed as part of machine learning coursework and demonstrates data preprocessing, feature preparation, exploratory analysis, and predictive modeling workflow across multiple notebooks.
 
 ---
 
 ## Files
 
-```text id="1v7p4o"
+```text id="1lm5v9"
 telco-customer-churn-analysis
 │
-├── deep_learning_analysis.ipynb   # Main analysis notebook
-├── data_preprocessing.ipynb   # Supporting preprocessing/model notebook
+├── data_preprocessing.ipynb      # Data preparation and feature handling
+├── deep_learning_analysis.ipynb  # Main modeling and analysis notebook
 ├── WA_Fn-UseC_-Telco-Customer-Churn.csv   # Dataset
 └── README.md
 ```
@@ -21,11 +21,13 @@ telco-customer-churn-analysis
 
 ## Project Overview
 
+This project follows a staged notebook workflow:
+
 * Load and inspect customer churn data
-* Perform preprocessing and feature preparation
-* Use notebook workflow across multiple stages
-* Analyze churn-related patterns
-* Support predictive modeling experiments
+* Clean and prepare features for analysis
+* Transform categorical and numeric variables
+* Explore customer churn patterns
+* Build predictive modeling workflow across notebooks
 
 ---
 
@@ -35,7 +37,8 @@ telco-customer-churn-analysis
 * Jupyter Notebook
 * Pandas
 * NumPy
-* Machine Learning libraries
+* Matplotlib
+* Scikit-learn / Deep learning libraries used in notebook workflow
 
 ---
 
@@ -45,7 +48,28 @@ Dataset used:
 
 WA_Fn-UseC_-Telco-Customer-Churn.csv
 
-This dataset contains customer demographic and service information used to study churn behavior.
+The dataset contains customer demographic information, account details, and service usage variables used to study churn behavior.
+
+---
+
+## Results
+
+This project demonstrates how customer account features can be prepared for churn prediction analysis.
+
+Key outcomes include:
+
+* structured preprocessing of customer records
+* feature preparation for machine learning input
+* staged notebook workflow separating preprocessing and analysis
+* predictive modeling experimentation for churn-related classification
+
+---
+
+## Example Output
+
+The screenshot below shows sample notebook output from the analysis workflow.
+
+![Notebook Output](screenshot.png)
 
 ---
 
@@ -57,12 +81,6 @@ Recommended sequence:
 
 1. data_preprocessing.ipynb
 2. deep_learning_analysis.ipynb
-
----
-
-## Example Output
-
-![Notebook Output](screenshot.png)
 
 ---
 
